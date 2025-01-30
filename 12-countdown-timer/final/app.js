@@ -21,7 +21,11 @@ const weekdays = [
   "Friday",
   "Saturday",
 ];
+<<<<<<< HEAD
 const gift = document.querySelector(".giveaway");
+=======
+const notagift = document.querySelector(".giveaway");
+>>>>>>> feature-branch
 const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h4");
 
