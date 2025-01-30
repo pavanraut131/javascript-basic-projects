@@ -21,11 +21,9 @@ const weekdays = [
   "Friday",
   "Saturday",
 ];
-<<<<<<< HEAD
+
 const gift = document.querySelector(".giveaway");
-=======
-const notagift = document.querySelector(".giveaway");
->>>>>>> feature-branch
+
 const deadline = document.querySelector(".deadline");
 const items = document.querySelectorAll(".deadline-format h4");
 
@@ -46,7 +44,10 @@ let month = futureDate.getMonth();
 month = months[month];
 const weekday = weekdays[futureDate.getDay()];
 const date = futureDate.getDate();
+
 gift.textContent = `giveaway ends on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
+
+notagift.textContent = `giveaway ends on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}am`;
 
 const futureTime = futureDate.getTime();
 function getRemaindingTime() {
@@ -75,7 +76,7 @@ function getRemaindingTime() {
       return (item = `0${item}`);
     }
     return item;
-    console.log(item)
+    console.log(item);
   }
 
   items.forEach(function (item, index) {
