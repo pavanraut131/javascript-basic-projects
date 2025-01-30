@@ -75,6 +75,7 @@ function getRemaindingTime() {
       return (item = `0${item}`);
     }
     return item;
+    console.log(item)
   }
 
   items.forEach(function (item, index) {
