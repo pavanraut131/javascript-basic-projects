@@ -76,7 +76,11 @@ function getRemaindingTime() {
       return (item = `0${item}`);
     }
     return item;
+<<<<<<< HEAD
     console.log(item);
+=======
+    console.log(item)
+>>>>>>> 37e25f1 (did a debugging)
   }
 
   items.forEach(function (item, index) {
