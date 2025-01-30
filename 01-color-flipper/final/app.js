@@ -3,11 +3,11 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener("click", function () {
-  const randomNumber = generateRandomNumber();
+  const newnumber = generateRandomNumber();
   // console.log(randomNumber);
 
-  document.body.style.backgroundColor = colors[randomNumber];
-  color.textContent = colors[randomNumber];
+  document.body.style.backgroundColor = colors[newnumber];
+  color.textContent = colors[newnumber];
 });
 
 function generateRandomNumber() {
